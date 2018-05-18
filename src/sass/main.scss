@@ -107,6 +107,7 @@ a {
 	font-weight: bold;
 	border: 0;
 	color: $text-color;
+	text-align: center;
 	width: 430px;
 	padding: 13px 5px;
 	border-radius: 20px 0px 20px 0px;
@@ -314,11 +315,18 @@ a {
 	&__form {
 		display: flex;
 		flex-direction: column;
-		input {
+		.prime-button {
+			margin: 20px auto 80px auto;
+		}
+		input, textarea {
 			background-color: transparent;
 			margin-bottom: 35px;
 			border-radius: 15px;
 			color: $text-color;
+		}
+		textarea {
+			height: 190px;
+			resize: none;
 		}
 	}
 	.prime-subtitle {
