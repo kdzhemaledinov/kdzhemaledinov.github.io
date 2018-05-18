@@ -1,0 +1,5 @@
+@import "mixins/font-face";
+
+@include font-face("GothamRounded", "../fonts/Gotham/GothamRounded-Book", bold);
+@include font-face("GothamRounded", "../fonts/Gotham/GothamRounded-Light");
+@include font-face("GothamRounded", "../fonts/Gotham/GothamRounded-Medium", 600);

@@ -1,0 +1,14 @@
+@mixin transition-animation {
+  transition: all 0.3s ease-in;
+}
+
+@mixin clearfix() {
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
